@@ -17,7 +17,7 @@ const GameOver = () => {
         perguntas.
       </p>
       <img src={WelldoneImage} alt="Fim do Quiz" />
-      <button onClick={() => dispatch({type: "NEW_GAME"})}>Reiniciar</button>
+      <button onClick={() => dispatch({ type: "NEW_GAME" })}>Reiniciar</button>
     </div>
   );
 };
